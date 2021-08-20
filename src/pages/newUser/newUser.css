@@ -1,0 +1,50 @@
+.newUser {
+  flex: 4;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.newUserForm {
+  display: flex;
+  flex-wrap: wrap;
+}
+.newUserItem {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  margin-right: 10px;
+}
+.newUserItem > label {
+  margin-bottom: 10px;
+  font-size: 14px;
+  font-weight: 600;
+  color: rgb(151, 150, 150);
+}
+.newUserItem > input {
+  height: 20px;
+  border: 1px solid grey;
+  border-radius: 5px;
+  padding: 10px;
+}
+.newUserGender > input {
+  margin-top: 15px;
+}
+.newUserGender > label {
+  margin: 10px;
+  font-size: 18px;
+  color: rgb(121, 117, 117);
+}
+.newUserSelect {
+  height: 40px;
+  border-radius: 5px;
+}
+.newUserButton {
+  margin-top: 10px;
+  width: 200px;
+  background-color: darkblue;
+  color: white;
+  border: none;
+  padding: 7px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
